@@ -1,0 +1,4 @@
+N = int(input("Enter the range: "))
+for num in range(N + 1):
+    if num % 2 == 0:
+        print(num, end=" ")
